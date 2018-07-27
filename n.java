@@ -5,13 +5,13 @@ class Ideone
 	{
 		Scanner sc=new Scanner(System.in);
 		long n=sc.nextLong();
-		if(n>0)
+		if(n<0)
 		{
-			System.out.println("Positive");
+			System.out.println("Negative");
 		}
 		else if(n<0)
 		{
-			System.out.println("Negative");
+			System.out.println("Positive");
 		}
 		else
 		{
